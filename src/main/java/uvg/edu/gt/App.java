@@ -28,7 +28,7 @@ public class App {
 
             switch (opcion) {
                 case 1:
-                    String nombreArchivo = "C:\\Users\\cjvil\\IdeaProjects\\guateGrafo.txt";
+                    String nombreArchivo = "..\\Hdt10Estructura\\guateGrafo.txt";
                     try {
                         ArrayList<ArrayList<String>> datos = leo.leerDatosDesdeArchivo(nombreArchivo);
                         int vertices = leo.cantidadVertices(nombreArchivo);
